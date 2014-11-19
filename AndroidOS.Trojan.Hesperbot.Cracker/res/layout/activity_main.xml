@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.ik.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtUninstallCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtxtrCode"
+            android:text="Uninstallation Code:" />
+
+        <Button
+            android:id="@+id/btnGenerateUninstallCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtxtUninstallCode"
+            android:layout_centerHorizontal="true"
+            android:onClick="GenerateUninstallationCode"
+            android:text="Generate Uninstallation Code" />
+
+        <EditText
+            android:id="@+id/edtxtrCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtrCode"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtrCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Enter rCode to get the uninstallation code:" />
+
+        <EditText
+            android:id="@+id/edtxtUninstallCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtUninstallCode"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnDumpAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDumpAll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:onClick="DumpAll"
+            android:text="Dump All" />
+
+        <TextView
+            android:id="@+id/txtDumpAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnGenerateUninstallCode"
+            android:layout_marginTop="19dp"
+            android:text="Press this button below to start dumping all uninstallation codes" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
