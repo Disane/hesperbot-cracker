@@ -5,13 +5,13 @@ Generates activation and uninstall codes using Hesperbot's Dalvik Executable.
 
 Requirements
 ===========
-The Cracker uses the original Malware `classes.dex` to generate the codes by using Java Reflection.
-The Cracker was successfully tested with this `classes.dex` File:
+This tool  uses the original malware `classes.dex` to generate the uninstall-codes by using Java Reflection.
+It was successfully tested with this `classes.dex` file:
 
 * MD5: `3d70ebfce0130c08772bf449d82d1235`
 * SHA1: `8fce71267af12db8578c9676c58ecf6c2c3d0424`
 
-If you do not have the classes.dex directly, you can extract it from the APK:
+If you do not have the `classes.dex` directly, you can extract it from the APK:
 
 * MD5: `a10fae2ad515b4b76ad950ea5ef76f72`
 * SHA1: `a5fd87e902ac6eeb8b1f885976da38ff4d70b52`
