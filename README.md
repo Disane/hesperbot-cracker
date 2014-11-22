@@ -25,3 +25,9 @@ Usage
 
 Open the Project in Eclipse and compile it to an APK. Install it on a device of your choise, even the emulator works fine!
 
+
+Presentation
+============
+
+We held a presentation about this Cracker at BSidesVienna 0x7DE which can be
+found here: https://github.com/reox/bsidesvienna
