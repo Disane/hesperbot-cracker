@@ -30,4 +30,4 @@ Presentation
 ============
 
 We held a presentation about this Cracker at BSidesVienna 0x7DE which can be
-found here: https://github.com/reox/bsidesvienna
+found here: https://github.com/reox/bsidesvienna0x7de
